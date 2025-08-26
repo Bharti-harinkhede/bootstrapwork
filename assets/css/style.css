@@ -1,0 +1,50 @@
+
+
+#carousel-example-generic img{
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+}
+.navbar.navbar-default.mynav {
+    background-color: lightgray;
+}
+.mynav .navbar-brand{
+        padding: 10px 20px;
+}
+.mynav .navbar-brand img{
+       height: 35px;
+}
+.mynav.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+.mynav.navbar-default .navbar-toggle .icon-bar{
+	background-color: #fff;
+}
+.mynav.navbar-default .navbar-toggle:focus, 
+.mynav.navbar-default .navbar-toggle:hover {
+    background-color: rgb(100, 100, 100);
+}
+.mynav.navbar-default .navbar-nav>.active>a, 
+.mynav.navbar-default .navbar-nav>.active>a:is(:hover, :focus, :active),  
+.mynav.navbar-default .navbar-nav>li>a:is(:hover, :focus, :active){
+    color: #fff;
+    background-color: rgb(100, 100, 100);
+}
+.mynav.navbar-default .navbar-nav>li>a{
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.box {
+	 height: 250px;
+	 background-color: hotpink;
+	 margin: 40px 10px;
+	 position: relative;
+}
+.box img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+ object-fit: cover;
+}
+
